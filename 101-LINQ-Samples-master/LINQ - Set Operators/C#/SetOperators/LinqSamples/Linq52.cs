@@ -6,7 +6,7 @@ namespace SetOperators
 {
     public partial class LinqSamplesSetOperators
     {
-        // Set Operators"
+        // Set Operators
         // This sample uses Except to create a sequence that contains the values from numbersA
         // that are not also in numbersB.
         public void Linq52()

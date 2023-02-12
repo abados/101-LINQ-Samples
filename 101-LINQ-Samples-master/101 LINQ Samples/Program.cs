@@ -56,9 +56,9 @@ namespace _101_LINQ_Samples
                 // 2. "SelectMany" - "The operator project the sequences of values which are based 
                 //    on a transform function as well as flattens them into a single sequence
 
-                // LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
+ //                LinqSamplesProjectionOperators samples_b = new LinqSamplesProjectionOperators();
 
-                //samples_b.DataSetLinq6();
+//                samples_b.DataSetLinq6();
                 //samples_b.DataSetLinq6A();
                 //samples_b.DataSetLinq7();
                 //samples_b.DataSetLinq7A();
@@ -338,13 +338,13 @@ namespace _101_LINQ_Samples
             // "Concat" - Two sequences are concatenated for the formation of a single one sequence.
             // "EqualAll" - To see if two sequences match on all elements in the same order
 
-            //LinqSamplesMiscellaneousOperators samples_l = new LinqSamplesMiscellaneousOperators();
+            LinqSamplesMiscellaneousOperators samples_l = new LinqSamplesMiscellaneousOperators();
 
             //samples_l.Linq94();
             //samples_l.Linq95();
             //samples_l.Linq95A();
             //samples_l.Linq96();
-            //samples_l.Linq97();
+            samples_l.Linq97();
 
             #endregion
 

@@ -12,10 +12,12 @@ namespace MiscellaneousOperators
         {
             var wordsA = new string[] { "cherry", "apple", "blueberry" };
             var wordsB = new string[] { "apple", "blueberry", "cherry" };
+            var wordsC = new string[] { "apple", "blueberry", "cherry" };
 
             #region Make Sure to try yourself before looking at the code
 
-                bool match = wordsA.SequenceEqual(wordsB);
+            bool match = wordsA.SequenceEqual(wordsB);
+             match = wordsC.SequenceEqual(wordsB);
 
             #endregion
 
